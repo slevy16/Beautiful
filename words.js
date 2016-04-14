@@ -131,7 +131,9 @@ function loadCanvas() {
         if(x == 13) enter = false;
       } , false);
 
-      if(screenThree) var intervalID = window.requestAnimationFrame(walk);
+        if(screenThree) var intervalID = window.requestAnimationFrame(walk);
+
+
 
       function walk(){
         var now = (new Date).getTime();
