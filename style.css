@@ -9,7 +9,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #7F7F7F;
     box-shadow: 0 17px 50px 0 rgba(0, 0, 0, 0.19), 0 12px 15px 0 rgba(0, 0, 0, 0.24);
     border-radius: 2px;
 }
@@ -26,7 +26,6 @@ li a {
     text-decoration: none;
     transition: background-color 1s;
     -webkit-transition: background-color .5s;
-    color: white;
 }
 
 li a:hover {
@@ -34,9 +33,6 @@ li a:hover {
     -webkit-transition: background-color 1s;
     background-color: #111;
     color: white;
-}
-li a:visited{
-  color: white;
 }
 
 
